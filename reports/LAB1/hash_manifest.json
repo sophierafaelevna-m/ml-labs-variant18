@@ -1,0 +1,24 @@
+{
+  "dataset": "20 Newsgroups",
+  "algorithm": "sha256",
+  "upstream_archive_sha256": "8f1b2514ca22a5ade8fbb9cfa5727df95fa587f4c87b786e15c759fa66d95610",
+  "categories": [
+    "alt.atheism",
+    "talk.religion.misc",
+    "comp.graphics",
+    "sci.space"
+  ],
+  "random_state": 42,
+  "files": [
+    {
+      "path": "data/raw/train.jsonl",
+      "sha256": "133fe0f80172b63eea19367082a01206a376f47f1ddc5f17e4c1e54be6aba50e",
+      "size_bytes": 4230250
+    },
+    {
+      "path": "data/raw/test.jsonl",
+      "sha256": "a48bce77e2ead08fdfd91a9a321fc301ca36958f4275aac55aa8a5ce6a6f3cf3",
+      "size_bytes": 3035589
+    }
+  ]
+}
