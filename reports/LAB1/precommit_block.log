@@ -1,0 +1,33 @@
+LAB1 pre-commit negative controls
+
+Цель: проверить блокировку трёх запрещённых изменений.
+
+1. Bad style/type code
+Test file: /tmp/bad_style_test.py
+Command:
+pre-commit run --files /tmp/bad_style_test.py
+Expected result:
+BLOCKED
+Reason:
+Ruff check detected a code-quality violation.
+
+2. Secret detection
+Test file: /tmp/secret_test.py
+Command:
+pre-commit run --files /tmp/secret_test.py
+Expected result:
+BLOCKED
+Reason:
+detect-secrets detected a secret-like value.
+
+3. Oversized binary
+Test file: /tmp/large_test.bin
+Size: 2048 KiB
+Command:
+pre-commit run --files /tmp/large_test.bin
+Expected result:
+BLOCKED
+Reason:
+check-added-large-files rejected a file larger than the configured 1024 KiB limit.
+
+Temporary negative-control files were not added to the repository.
