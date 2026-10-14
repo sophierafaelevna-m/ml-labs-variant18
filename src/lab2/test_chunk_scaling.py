@@ -8,8 +8,8 @@ from pathlib import Path
 
 import psutil
 
-from src.lab2.config import load_config
 from src.lab2.chunk_mode import train_streaming
+from src.lab2.config import load_config
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "reports" / "LAB2"

@@ -1,8 +1,8 @@
 import hashlib
-from collections import Counter
 import json
 import threading
 import time
+from collections import Counter
 from pathlib import Path
 
 import joblib
@@ -15,7 +15,6 @@ from src.lab2.data import load_jsonl
 from src.lab2.metrics import naive_baseline
 from src.lab2.model import build_classifier, build_vectorizer
 from src.lab2.train import calculate_test_metrics_with_ci
-
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "reports" / "LAB2"
