@@ -3,10 +3,10 @@ from pathlib import Path
 
 import numpy as np
 
+from src.lab2.chunk_mode import train_streaming
 from src.lab2.config import load_config
 from src.lab2.data import load_jsonl
 from src.lab2.model import train_final_model
-from src.lab2.chunk_mode import train_streaming
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "reports" / "LAB2"

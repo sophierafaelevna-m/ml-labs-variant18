@@ -6,7 +6,6 @@ from sklearn.linear_model import SGDClassifier
 from sklearn.metrics import f1_score
 from sklearn.pipeline import Pipeline
 
-
 N_FEATURES = 2**16
 
 
