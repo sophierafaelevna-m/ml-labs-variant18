@@ -1,0 +1,47 @@
+============================================================
+LAB 2 — FULL MODE
+============================================================
+
+[1/7] Loading data...
+Full train: 2034
+Train part: 1627
+Validation: 407
+Test: 1353
+
+[2/7] Hyperparameter tuning...
+
+Tuning results:
+C=0.1: macro_f1=0.8844
+C=1.0: macro_f1=0.9698
+C=10.0: macro_f1=0.9686
+
+Best C: 1.0
+Best validation Macro F1: 0.9698
+
+[3/7] Training final model...
+Training time: 0.306 sec
+
+[4/7] Evaluating on test set...
+
+Test metrics:
+accuracy: 0.8758 [0.8581, 0.8936]
+macro_f1: 0.8605 [0.8411, 0.8792]
+macro_precision: 0.8647 [0.8458, 0.8832]
+macro_recall: 0.8584 [0.8392, 0.8771]
+rare_class_recall: 0.7171 [0.6640, 0.7702]
+
+[5/7] Naive baseline...
+Baseline accuracy: 0.2912
+Baseline Macro F1: 0.1128
+
+[6/7] Saving model...
+Model: /Users/sophierafaelevna/Documents/GitHub/ml-labs-variant18/reports/LAB2/ml_model.joblib
+SHA-256: 6cc06488031ffce24ba9f54c2e9e30133e9cd7cecbff99d9eaf1152bb622481b
+
+[7/7] Logging to MLflow...
+
+============================================================
+FULL MODE COMPLETE
+============================================================
+MLflow Run ID: 184cf6315c1b43f09232bbb15f5dbace
+Results: /Users/sophierafaelevna/Documents/GitHub/ml-labs-variant18/reports/LAB2/full_results.json

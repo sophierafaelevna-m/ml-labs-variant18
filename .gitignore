@@ -25,3 +25,11 @@ __pycache__/
 data/cache/
 data/raw/*
 !data/raw/.gitkeep
+
+# MLflow local tracking
+mlruns/
+mlflow.db
+
+/backups/
+/dist/
+/reports/LAB2/lab2_report.backup.md

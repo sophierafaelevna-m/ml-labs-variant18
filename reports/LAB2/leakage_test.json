@@ -1,0 +1,17 @@
+{
+  "validation_marker_excluded_from_training": true,
+  "fit_row_counts": [
+    1627,
+    1627,
+    1627,
+    2034
+  ],
+  "expected_fit_row_counts": [
+    1627,
+    1627,
+    1627,
+    2034
+  ],
+  "baseline_uses_training_majority": true,
+  "status": "PASS"
+}
