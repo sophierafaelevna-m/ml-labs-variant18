@@ -1,0 +1,32 @@
+{
+  "mode": "full",
+  "best_C": 1.0,
+  "best_validation_macro_f1": 0.9698,
+  "training_time_sec": 0.306,
+  "baseline": {
+    "accuracy": 0.2912,
+    "macro_f1": 0.1128
+  },
+  "metrics": {
+    "accuracy": 0.8758,
+    "accuracy_ci_lower": 0.8581,
+    "accuracy_ci_upper": 0.8936,
+    "macro_f1": 0.8605,
+    "macro_f1_ci_lower": 0.8411,
+    "macro_f1_ci_upper": 0.8792,
+    "macro_precision": 0.8647,
+    "macro_precision_ci_lower": 0.8458,
+    "macro_precision_ci_upper": 0.8832,
+    "macro_recall": 0.8584,
+    "macro_recall_ci_lower": 0.8392,
+    "macro_recall_ci_upper": 0.8771,
+    "rare_class_recall": 0.7171,
+    "rare_class_recall_ci_lower": 0.664,
+    "rare_class_recall_ci_upper": 0.7702
+  },
+  "mlflow_run_id": "184cf6315c1b43f09232bbb15f5dbace",
+  "model_path": "reports/LAB2/ml_model.joblib",
+  "model_sha256": "6cc06488031ffce24ba9f54c2e9e30133e9cd7cecbff99d9eaf1152bb622481b",
+  "peak_memory_mb": 277.90625,
+  "memory_measurement": "External process RSS, entire script lifetime"
+}

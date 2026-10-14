@@ -1,0 +1,16 @@
+data:
+  train_path: data/raw/train.jsonl
+  test_path: data/raw/test.jsonl
+  text_column: text
+  target_column: target
+pipeline:
+  vectorizer: hashing
+  model: sgd_classifier
+chunking:
+  chunk_size: 256
+model:
+  C: 1.0
+  max_iter: 1000
+random_state: 42
+mlflow:
+  experiment_name: lab2_variant18

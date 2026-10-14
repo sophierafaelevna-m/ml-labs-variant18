@@ -1,0 +1,20 @@
+PASS: chunk_size=0 rejected
+
+1 validation error for Lab2Config
+chunking.chunk_size
+  Input should be greater than 0 [type=greater_than, input_value=0, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/greater_than
+
+PASS: C=-1 rejected
+
+1 validation error for Lab2Config
+model.C
+  Input should be greater than 0 [type=greater_than, input_value=-1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/greater_than
+
+PASS: unexpected field rejected
+
+1 validation error for Lab2Config
+unexpected_option
+  Extra inputs are not permitted [type=extra_forbidden, input_value=True, input_type=bool]
+    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden

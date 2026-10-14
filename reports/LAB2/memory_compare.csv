@@ -1,0 +1,3 @@
+mode,training_time_sec,peak_memory_mb,mlflow_run_id
+full,0.306,277.90625,184cf6315c1b43f09232bbb15f5dbace
+chunk,0.33024850000219885,254.34375,4f5f71a6c94a47baac3f57c6e8e02c0c

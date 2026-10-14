@@ -5,3 +5,10 @@ scikit-learn
 pre-commit
 ruff
 detect-secrets
+mlflow
+pydantic
+PyYAML
+psutil
+joblib
+numpy
+scipy

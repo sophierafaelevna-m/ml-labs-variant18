@@ -1,0 +1,38 @@
+{
+  "mode": "chunk",
+  "best_C": 1.0,
+  "training_time_sec": 0.33024850000219885,
+  "peak_memory_mb": 254.34375,
+  "chunk_size": 256,
+  "chunks_processed": 8,
+  "train_rows": 2034,
+  "test_rows": 1353,
+  "feature_count": 65536,
+  "metrics": {
+    "accuracy": 0.8787878787878788,
+    "accuracy_ci_lower": 0.861049519586105,
+    "accuracy_ci_upper": 0.8957871396895787,
+    "macro_f1": 0.8629278431597598,
+    "macro_f1_ci_lower": 0.8428255152439214,
+    "macro_f1_ci_upper": 0.8806416711798726,
+    "macro_precision": 0.8687773887077737,
+    "macro_precision_ci_lower": 0.8487321698817403,
+    "macro_precision_ci_upper": 0.8862291152835543,
+    "macro_recall": 0.8604510349006189,
+    "macro_recall_ci_lower": 0.841146060933215,
+    "macro_recall_ci_upper": 0.8781342474210596,
+    "rare_class_recall": 0.6892430278884463,
+    "rare_class_recall_ci_lower": 0.6342887333245278,
+    "rare_class_recall_ci_upper": 0.7460504802779481
+  },
+  "baseline": {
+    "accuracy": 0.29120473022912047,
+    "macro_f1": 0.11276473955352032
+  },
+  "mlflow_run_id": "4f5f71a6c94a47baac3f57c6e8e02c0c",
+  "model_path": "reports/LAB2/chunk_model.joblib",
+  "model_sha256": "56e374fabd9036f22b7e2f996be77d84e06bc2f6deb748a34f4eb5cf8aef2bbe",
+  "note": "True incremental training with partial_fit.",
+  "training_window_peak_memory_mb": 221.640625,
+  "memory_measurement": "External process RSS, entire script lifetime"
+}

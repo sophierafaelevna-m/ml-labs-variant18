@@ -1,0 +1,27 @@
+{
+  "measurements": [
+    {
+      "rows": 2034,
+      "chunks": 8,
+      "peak_memory_mb": 219.71875,
+      "data_multiplier": 1
+    },
+    {
+      "rows": 4068,
+      "chunks": 16,
+      "peak_memory_mb": 222.265625,
+      "data_multiplier": 2
+    },
+    {
+      "rows": 8136,
+      "chunks": 32,
+      "peak_memory_mb": 223.203125,
+      "data_multiplier": 4
+    }
+  ],
+  "peak_growth_mb": 3.484375,
+  "tolerance_mb": 43.94375,
+  "bounded_memory_empirical_check": true,
+  "status": "PASS",
+  "note": "Empirical RSS check on 1x, 2x and 4x datasets. Does not constitute a mathematical proof of bounded memory."
+}

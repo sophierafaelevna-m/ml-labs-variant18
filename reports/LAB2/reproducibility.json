@@ -1,0 +1,7 @@
+{
+  "full_model_sha256": "c1b4d245087758bd9b4dce94e51905fb9fcadeddbe763bb72ad520c434d0fda6",
+  "chunk_model_sha256": "a91d59d3f3e72df126d15745dee1e46bc9a14b13167b23f946e3883ae637e0a4",
+  "full_predictions_identical": true,
+  "chunk_predictions_identical": true,
+  "test_rows": 1353
+}
