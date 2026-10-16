@@ -1,0 +1,27 @@
+data:
+  train_path: data/raw/train.jsonl
+  test_path: data/raw/test.jsonl
+  text_column: text
+  target_column: target
+  validation_fraction: 0.2
+model:
+  architecture: embeddingbag_mlp
+  vocab_size: 20000
+  min_token_frequency: 2
+  embedding_dim: 64
+  hidden_dim: 64
+  dropout: 0.2
+training:
+  batch_size: 64
+  epochs: 12
+  learning_rate: 0.001
+  early_stopping_patience: 3
+  seed: 42
+  device: auto
+loading:
+  modes:
+    - full
+    - chunk
+  chunk_size: 256
+mlflow:
+  experiment_name: lab3_variant18
