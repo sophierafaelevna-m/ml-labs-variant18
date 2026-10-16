@@ -10,7 +10,7 @@ repos:
       - id: check-ast
       - id: check-added-large-files
         args: ["--maxkb=1024"]
-        exclude: ^reports/LAB2/(ml_model|chunk_model)\.joblib$
+        exclude: ^reports/LAB2/(ml_model|chunk_model)\.joblib$|^reports/LAB3/dl_model(_chunk)?\.pt$
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.16.0
@@ -22,4 +22,5 @@ repos:
     rev: v1.5.0
     hooks:
       - id: detect-secrets
+        exclude: ^reports/LAB3/(training_run_(full|chunk)|verification_results)\.json$
         args: ["--baseline", ".secrets.baseline"]

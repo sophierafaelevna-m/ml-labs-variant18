@@ -1,0 +1,47 @@
+{
+  "seed": 42,
+  "checks": {
+    "full_checkpoint_sha256": "b093ddf5057e9633e3c2625673eedd9836f86800c8ab210a4131adc7aebcd2e9",
+    "chunk_checkpoint_sha256": "bee4a1135d7544cbb43c0d021f22856dfa721a2c30f437efca431c0b3fd3e78f",
+    "full_chunk_max_parameter_difference": 0.0,
+    "repeatability": {
+      "runs": 2,
+      "same_seed": 42,
+      "max_history_difference": 0.0,
+      "max_weight_difference": 0.0,
+      "macro_f1_run_1": 0.7711884246509271,
+      "macro_f1_run_2": 0.7711884246509271,
+      "absolute_f1_difference": 0.0,
+      "tolerance": 0.005
+    },
+    "saved_vs_retrained_full_macro_f1_difference": 0.0,
+    "negative_controls": {
+      "missing_seed_rejected": true,
+      "zero_batch_size_rejected": true,
+      "consecutive_initializations_without_reseeding_differ": true,
+      "max_initial_parameter_difference": 6.980829238891602
+    },
+    "streaming_memory_scaling": {
+      "small": {
+        "source_rows": 1000,
+        "consumed_train_rows": 800,
+        "tracemalloc_peak_mb": 0.21487
+      },
+      "large": {
+        "source_rows": 10000,
+        "consumed_train_rows": 8032,
+        "tracemalloc_peak_mb": 0.22187
+      },
+      "peak_growth_mb": 0.007,
+      "note": "tracemalloc measures Python allocations during iteration, not whole-process RSS"
+    },
+    "device_parity": {
+      "cpu_tested": true,
+      "mps_available": true,
+      "tolerance_max_abs_diff": 1e-05,
+      "max_abs_difference": 4.76837158203125e-07,
+      "pass": true
+    }
+  },
+  "warnings": []
+}

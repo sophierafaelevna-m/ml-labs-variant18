@@ -1,0 +1,3 @@
+mode,training_time_sec,peak_memory_mb,epochs_trained,best_epoch,mlflow_run_id
+full,2.949712832996738,511.875,12,12,edfdb4e51444458d9e850a7e79fbf332
+chunk,6.059033707992057,539.265625,12,12,b949341c13f84ef89ffb5213e0cc1de4
