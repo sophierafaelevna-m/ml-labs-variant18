@@ -1,0 +1,12 @@
+{
+  "mode": "chunk",
+  "checkpoint_path": "reports/LAB3/dl_model_chunk.pt",
+  "checkpoint_sha256": "bee4a1135d7544cbb43c0d021f22856dfa721a2c30f437efca431c0b3fd3e78f",
+  "mlflow_run_id": "b949341c13f84ef89ffb5213e0cc1de4",
+  "seed": 42,
+  "device": "cpu",
+  "parameters": 1141188,
+  "rare_class": 3,
+  "best_epoch": 12,
+  "test_evaluated_after_validation_selection": true
+}

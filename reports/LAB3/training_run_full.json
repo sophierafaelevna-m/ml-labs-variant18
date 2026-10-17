@@ -1,0 +1,12 @@
+{
+  "mode": "full",
+  "checkpoint_path": "reports/LAB3/dl_model.pt",
+  "checkpoint_sha256": "b093ddf5057e9633e3c2625673eedd9836f86800c8ab210a4131adc7aebcd2e9",
+  "mlflow_run_id": "edfdb4e51444458d9e850a7e79fbf332",
+  "seed": 42,
+  "device": "cpu",
+  "parameters": 1141188,
+  "rare_class": 3,
+  "best_epoch": 12,
+  "test_evaluated_after_validation_selection": true
+}
