@@ -1,0 +1,2 @@
+method,train_documents,calibration_documents,validation_check_documents,threshold,calibration_frr,validation_check_frr
+tfidf_nearest_neighbor,1624,205,205,0.18492102684719156,0.05365853658536585,0.03414634146341464

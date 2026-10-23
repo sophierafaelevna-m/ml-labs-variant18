@@ -1,0 +1,2 @@
+experiment,own_rows,foreign_rows,true_positive,false_negative,false_positive,true_negative,precision_rejection,recall_rejection,false_reject_rate,roc_auc,length_limit,distance_threshold,confidence_threshold,params_sha256
+development_synthetic_ood,205,48,44,4,12,193,0.7857142857142857,0.9166666666666666,0.05853658536585366,0.9782520325203252,1975.7799999999997,3.0,0.48000000000000004,8f3a1a325ffc3339f10f3c37ddde9f7e4489cf2d7279b437f8db6b0ab6a228a8

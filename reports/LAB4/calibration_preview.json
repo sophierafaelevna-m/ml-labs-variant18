@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "calibration_rows": 205,
+  "evaluation_rows": 205,
+  "distance_threshold": 3.0,
+  "initial_confidence_threshold": 0.55,
+  "selected_confidence_threshold": 0.48000000000000004,
+  "target_calibration_false_reject_rate": 0.08,
+  "initial_calibration_false_reject_rate": 0.13658536585365855,
+  "selected_calibration_false_reject_rate": 0.07317073170731707,
+  "initial_evaluation_false_reject_rate": 0.11707317073170732,
+  "selected_evaluation_false_reject_rate": 0.04878048780487805,
+  "required_max_false_reject_rate": 0.1
+}

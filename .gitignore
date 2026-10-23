@@ -33,3 +33,6 @@ mlflow.db
 /backups/
 /dist/
 /reports/LAB2/lab2_report.backup.md
+
+# Lab 4 generated TF-IDF matrix
+/reports/LAB4/topic_train_matrix.npz

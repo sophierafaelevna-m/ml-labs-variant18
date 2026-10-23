@@ -1,0 +1,2 @@
+method,threshold,id_documents,id_false_rejections,id_false_reject_rate,foreign_documents,foreign_rejected,foreign_accepted,foreign_recall,rejection_precision,roc_auc,frr_requirement_met,recall_requirement_met
+tfidf_nearest_neighbor,0.18492102684719156,1353,225,0.1662971175166297,200,183,17,0.915,0.4485294117647059,0.9524944567627494,False,True
