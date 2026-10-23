@@ -1,0 +1,18 @@
+Lab 4 negative checks (development experiment)
+Foreign examples are synthetic OOD proxies.
+This is not an independent final test.
+
+distribution_shift: 12/12 rejected
+foreign_topic: 9/12 rejected
+length_outlier: 11/12 rejected
+unknown_vocabulary: 12/12 rejected
+
+Accepted foreign examples:
+index=209, group=foreign_topic, distance=2.7197, confidence=0.9359, length=9
+index=211, group=foreign_topic, distance=2.8794, confidence=0.9998, length=10
+index=213, group=foreign_topic, distance=2.0389, confidence=0.9527, length=11
+index=232, group=length_outlier, distance=1.3840, confidence=0.9239, length=1575
+
+Flipped-label mismatches: 10/12
+This supervised control requires reference labels.
+A mismatch does not prove the reference label is wrong.

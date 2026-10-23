@@ -1,0 +1,2 @@
+experiment,test_rows,accepted_rows,rejected_rows,false_reject_rate,coverage,model_accuracy,accepted_accuracy,distance_threshold,confidence_threshold,length_limit
+independent_id_test,1353,1214,139,0.10273466371027347,0.8972653362897265,0.7945306725794531,0.8253706754530478,3.0,0.48000000000000004,1975.7799999999997

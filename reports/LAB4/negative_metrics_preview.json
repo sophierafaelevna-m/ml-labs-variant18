@@ -1,0 +1,32 @@
+{
+  "own_evaluation_rows": 205,
+  "foreign_examples": 48,
+  "distance_threshold": 3.0,
+  "confidence_threshold": 0.48000000000000004,
+  "precision_rejection": 0.7674418604651163,
+  "recall_rejection": 0.6875,
+  "false_reject_rate": 0.04878048780487805,
+  "roc_auc": 0.8825711382113821,
+  "foreign_accepted": 15,
+  "foreign_by_group": {
+    "distribution_shift": {
+      "count": 12,
+      "rejected": 12
+    },
+    "foreign_topic": {
+      "count": 12,
+      "rejected": 9
+    },
+    "length_outlier": {
+      "count": 12,
+      "rejected": 0
+    },
+    "unknown_vocabulary": {
+      "count": 12,
+      "rejected": 12
+    }
+  },
+  "flipped_label_mismatch_count": 10,
+  "flipped_label_control_count": 12,
+  "note": "Foreign samples are synthetic OOD proxies. Flipped labels are evaluated separately, not included in ROC-AUC."
+}

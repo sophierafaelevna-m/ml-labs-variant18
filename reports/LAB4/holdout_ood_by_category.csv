@@ -1,0 +1,5 @@
+category,total,rejected,accepted,recall
+rec.autos,50,10,40,0.2
+rec.sport.baseball,50,13,37,0.26
+sci.med,50,10,40,0.2
+misc.forsale,50,12,38,0.24

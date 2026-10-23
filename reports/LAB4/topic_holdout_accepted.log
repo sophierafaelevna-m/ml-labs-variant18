@@ -1,0 +1,20 @@
+Foreign documents accepted by the frozen topic guard
+Threshold: 0.184921
+
+index=1, category=comp.sys.mac.hardware, similarity=0.319804
+index=5, category=comp.sys.mac.hardware, similarity=0.269016
+index=17, category=comp.sys.mac.hardware, similarity=0.201534
+index=41, category=comp.sys.mac.hardware, similarity=0.197403
+index=46, category=comp.sys.mac.hardware, similarity=0.271333
+index=80, category=rec.motorcycles, similarity=0.212063
+index=88, category=rec.motorcycles, similarity=0.188343
+index=99, category=rec.motorcycles, similarity=0.194090
+index=108, category=sci.electronics, similarity=0.314481
+index=112, category=sci.electronics, similarity=0.312228
+index=117, category=sci.electronics, similarity=0.745824
+index=119, category=sci.electronics, similarity=0.237000
+index=128, category=sci.electronics, similarity=0.188382
+index=144, category=sci.electronics, similarity=0.192683
+index=167, category=rec.sport.hockey, similarity=0.276014
+index=179, category=rec.sport.hockey, similarity=0.186560
+index=188, category=rec.sport.hockey, similarity=0.247350

@@ -1,0 +1,5 @@
+category,documents,rejected,accepted,recall
+comp.sys.mac.hardware,50,45,5,0.9
+rec.motorcycles,50,47,3,0.94
+sci.electronics,50,44,6,0.88
+rec.sport.hockey,50,47,3,0.94

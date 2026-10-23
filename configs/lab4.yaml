@@ -1,0 +1,27 @@
+source:
+  lab3_config_path: configs/lab3.yaml
+  checkpoint_path: reports/LAB3/dl_model.pt
+
+features:
+  length_transform: log1p
+  frequency_bins: 4
+  use_oov_ratio: true
+
+distance:
+  method: standardized_euclidean
+  epsilon: 0.000001
+  threshold: 3.0
+
+decision:
+  confidence_threshold: 0.55
+  min_foreign_recall: 0.90
+  max_false_reject_rate: 0.10
+
+loading:
+  modes:
+    - full
+    - chunk
+  chunk_size: 256
+
+mlflow:
+  experiment_name: lab4_variant18

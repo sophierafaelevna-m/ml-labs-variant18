@@ -1,0 +1,14 @@
+{
+  "full": {
+    "time_seconds": 2.8973974580003414,
+    "peak_traced_memory_mib": 4.5323333740234375
+  },
+  "chunk": {
+    "time_seconds": 2.8822437079797965,
+    "peak_traced_memory_mib": 1.326064109802246
+  },
+  "max_mean_difference": 4.440892098500626e-15,
+  "max_variance_difference": 4.440892098500626e-16,
+  "allclose_atol": 1e-10,
+  "memory_measurement": "Peak tracemalloc-tracked allocations, not process RSS"
+}

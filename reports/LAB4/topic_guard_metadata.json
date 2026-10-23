@@ -1,0 +1,9 @@
+{
+  "method": "tfidf_nearest_neighbor",
+  "threshold": 0.18492102684719156,
+  "train_documents": 1624,
+  "tfidf_features": 20000,
+  "calibration_quantile": 0.05,
+  "fit_split": "train",
+  "calibration_split": "validation_first_half_seed42"
+}
