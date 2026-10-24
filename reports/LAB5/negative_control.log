@@ -1,0 +1,35 @@
+# Отрицательный контроль ЛР5
+
+Намеренно нарушена воспроизводимость генератора:
+переданный seed заменён другим значением.
+
+Ожидаемый результат: тест должен завершиться ошибкой.
+
+Фрагмент исходного вывода pytest:
+E   >To draw polygons of course.  Its a VGA mode 13h (320x200) game, done in C and
+E   >ASM.  I need a faster way to draw concave polygons that the method I have right
+E   >now, which is very slow.
+E
+E   What kind of polygons?  Shaded?  Texturemapped?  Hm?  More comes into play with
+E   fast routines than just "polygons".  It would be nice to know exaclty what
+E   system (VGA is a start, but what processor?) and a few of the specifics of the
+E   implementation.  You need to give  more info if you want to get any answers! :P
+E
+E                                     - Ian Romanick
+E                                       Dancing Fool of Epsilon
+E
+E   []--------------------------------------------------------------------[]
+E    | Were the contained thoughts 'opinions',     EPN.NTSC.quality = Best|
+E    | PSU would probably not agree with them.                            |
+E    |                                                                    |
+E    | "Look, I don't know anything about                                 |
+E    | douche, but I do know Anti-Freeze                                  |
+E    | when I see it!" - The Dead Milkmen                                 |
+E   []--------------------------------------------------------------------[]
+
+pandas/_libs/testing.pyx:171: AssertionError
+=========================== short test summary info ============================
+FAILED tests/lab5/test_negative_control.py::test_broken_seed_determinism - As...
+1 failed in 0.88s
+
+Вердикт: PASS — нарушение воспроизводимости обнаружено.

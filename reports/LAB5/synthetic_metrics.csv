@@ -1,0 +1,17 @@
+mode,feature,psi,ks,passed
+similar,word_count,0.00672,0.02395,True
+similar,char_count,0.00435,0.0312,True
+similar,avg_word_length,0.00828,0.02995,True
+similar,unique_word_ratio,0.01256,0.0349,True
+similar,top100_share,0.02181,0.03271,True
+similar,top1000_share,0.01524,0.02695,True
+similar,short_word_share,0.01133,0.04602,True
+similar,class_distribution,0.00186,,True
+random,word_count,12.46205,0.94297,True
+random,char_count,12.42687,0.93304,True
+random,avg_word_length,7.49176,0.8833,True
+random,unique_word_ratio,12.42685,0.99408,True
+random,top100_share,12.42689,0.99656,True
+random,top1000_share,10.80063,0.95822,True
+random,short_word_share,7.91185,0.91867,True
+random,class_distribution,0.00011,,False

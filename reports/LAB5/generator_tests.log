@@ -1,0 +1,50 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.0, pytest-9.1.1, pluggy-1.7.0 -- /Users/sophierafaelevna/Documents/GitHub/ml-labs-variant18/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/sophierafaelevna/Documents/GitHub/ml-labs-variant18
+configfile: pyproject.toml
+plugins: cov-7.1.0, anyio-4.15.1
+collecting ... collected 27 items
+
+tests/lab5/test_generator.py::test_valid_config PASSED                   [  3%]
+tests/lab5/test_generator.py::test_invalid_config_rejected[changes0] PASSED [  7%]
+tests/lab5/test_generator.py::test_invalid_config_rejected[changes1] PASSED [ 11%]
+tests/lab5/test_generator.py::test_invalid_config_rejected[changes2] PASSED [ 14%]
+tests/lab5/test_generator.py::test_invalid_config_rejected[changes3] PASSED [ 18%]
+tests/lab5/test_generator.py::test_invalid_config_rejected[changes4] PASSED [ 22%]
+tests/lab5/test_generator.py::test_invalid_config_rejected[changes5] PASSED [ 25%]
+tests/lab5/test_generator.py::test_invalid_config_rejected[changes6] PASSED [ 29%]
+tests/lab5/test_generator.py::test_invalid_config_rejected[changes7] PASSED [ 33%]
+tests/lab5/test_generator.py::test_duplicate_classes_rejected PASSED     [ 37%]
+tests/lab5/test_generator.py::test_similar_generation PASSED             [ 40%]
+tests/lab5/test_generator.py::test_random_generation PASSED              [ 44%]
+tests/lab5/test_generator.py::test_modes_produce_different_texts PASSED  [ 48%]
+tests/lab5/test_generator.py::test_unknown_mode_rejected PASSED          [ 51%]
+tests/lab5/test_generator.py::test_seed_reproducibility PASSED           [ 55%]
+tests/lab5/test_generator.py::test_different_seeds PASSED                [ 59%]
+tests/lab5/test_generator.py::test_length_drift PASSED                   [ 62%]
+tests/lab5/test_generator.py::test_class_drift PASSED                    [ 66%]
+tests/lab5/test_generator.py::test_label_flip_drift PASSED               [ 70%]
+tests/lab5/test_generator.py::test_seasonal_drift PASSED                 [ 74%]
+tests/lab5/test_generator.py::test_missing_source_rejected PASSED        [ 77%]
+tests/lab5/test_generator.py::test_missing_columns_rejected PASSED       [ 81%]
+tests/lab5/test_generator.py::test_empty_text_rejected PASSED            [ 85%]
+tests/lab5/test_generator.py::test_psi_detects_distribution_change PASSED [ 88%]
+tests/lab5/test_generator.py::test_categorical_psi PASSED                [ 92%]
+tests/lab5/test_generator.py::test_comparison_creates_metrics PASSED     [ 96%]
+tests/lab5/test_generator.py::test_experiments_create_artifacts PASSED   [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.12.0-final-0 _______________
+
+Name                      Stmts   Miss  Cover   Missing
+-------------------------------------------------------
+src/lab5/__init__.py          0      0   100%
+src/lab5/compare.py          89      2    98%   87, 257
+src/lab5/config.py           50      9    82%   52, 55, 68-74
+src/lab5/experiments.py      56      1    98%   163
+src/lab5/generator.py       116     24    79%   29, 50, 67, 108, 115, 242-282, 286
+-------------------------------------------------------
+TOTAL                       311     36    88%
+Coverage HTML written to dir reports/LAB5/htmlcov
+============================== 27 passed in 3.56s ==============================
