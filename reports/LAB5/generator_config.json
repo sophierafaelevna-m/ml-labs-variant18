@@ -1,0 +1,132 @@
+{
+  "baseline": {
+    "mode": "similar",
+    "n_samples": 1000,
+    "seed": 42,
+    "source": {
+      "train_path": "data/raw/train.jsonl"
+    },
+    "classes": [
+      "alt.atheism",
+      "talk.religion.misc",
+      "comp.graphics",
+      "sci.space"
+    ],
+    "drift": {
+      "length_multiplier": 1.0,
+      "class_probabilities": null,
+      "label_flip_rate": 0.0,
+      "seasonal_amplitude": 0.0,
+      "seasonal_period": 100
+    },
+    "output": {
+      "path": "reports/LAB5/synthetic_data.csv",
+      "format": "csv"
+    }
+  },
+  "length_drift": {
+    "mode": "similar",
+    "n_samples": 1000,
+    "seed": 42,
+    "source": {
+      "train_path": "data/raw/train.jsonl"
+    },
+    "classes": [
+      "alt.atheism",
+      "talk.religion.misc",
+      "comp.graphics",
+      "sci.space"
+    ],
+    "drift": {
+      "length_multiplier": 1.5,
+      "class_probabilities": null,
+      "label_flip_rate": 0.0,
+      "seasonal_amplitude": 0.0,
+      "seasonal_period": 100
+    },
+    "output": {
+      "path": "reports/LAB5/synthetic_data.csv",
+      "format": "csv"
+    }
+  },
+  "class_drift": {
+    "mode": "similar",
+    "n_samples": 1000,
+    "seed": 42,
+    "source": {
+      "train_path": "data/raw/train.jsonl"
+    },
+    "classes": [
+      "alt.atheism",
+      "talk.religion.misc",
+      "comp.graphics",
+      "sci.space"
+    ],
+    "drift": {
+      "length_multiplier": 1.0,
+      "class_probabilities": {
+        "alt.atheism": 0.7,
+        "talk.religion.misc": 0.1,
+        "comp.graphics": 0.1,
+        "sci.space": 0.1
+      },
+      "label_flip_rate": 0.0,
+      "seasonal_amplitude": 0.0,
+      "seasonal_period": 100
+    },
+    "output": {
+      "path": "reports/LAB5/synthetic_data.csv",
+      "format": "csv"
+    }
+  },
+  "label_drift": {
+    "mode": "similar",
+    "n_samples": 1000,
+    "seed": 42,
+    "source": {
+      "train_path": "data/raw/train.jsonl"
+    },
+    "classes": [
+      "alt.atheism",
+      "talk.religion.misc",
+      "comp.graphics",
+      "sci.space"
+    ],
+    "drift": {
+      "length_multiplier": 1.0,
+      "class_probabilities": null,
+      "label_flip_rate": 0.2,
+      "seasonal_amplitude": 0.0,
+      "seasonal_period": 100
+    },
+    "output": {
+      "path": "reports/LAB5/synthetic_data.csv",
+      "format": "csv"
+    }
+  },
+  "seasonal_drift": {
+    "mode": "similar",
+    "n_samples": 1000,
+    "seed": 42,
+    "source": {
+      "train_path": "data/raw/train.jsonl"
+    },
+    "classes": [
+      "alt.atheism",
+      "talk.religion.misc",
+      "comp.graphics",
+      "sci.space"
+    ],
+    "drift": {
+      "length_multiplier": 1.0,
+      "class_probabilities": null,
+      "label_flip_rate": 0.0,
+      "seasonal_amplitude": 0.7,
+      "seasonal_period": 100
+    },
+    "output": {
+      "path": "reports/LAB5/synthetic_data.csv",
+      "format": "csv"
+    }
+  }
+}

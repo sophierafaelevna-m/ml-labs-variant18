@@ -1,0 +1,3 @@
+mode,passed_features,total_features,passed_share,required_share,verdict
+similar,8,8,1.0,0.8,PASS
+random,7,8,0.875,0.5,PASS

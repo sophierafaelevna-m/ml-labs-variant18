@@ -1,0 +1,23 @@
+mode: similar
+n_samples: 1000
+seed: 42
+
+source:
+  train_path: data/raw/train.jsonl
+
+classes:
+  - alt.atheism
+  - talk.religion.misc
+  - comp.graphics
+  - sci.space
+
+drift:
+  length_multiplier: 1.0
+  class_probabilities: null
+  label_flip_rate: 0.0
+  seasonal_amplitude: 0.0
+  seasonal_period: 100
+
+output:
+  path: reports/LAB5/synthetic_data.csv
+  format: csv

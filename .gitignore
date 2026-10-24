@@ -36,3 +36,6 @@ mlflow.db
 
 # Lab 4 generated TF-IDF matrix
 /reports/LAB4/topic_train_matrix.npz
+.coverage
+htmlcov/
+/reports/LAB5/synthetic_*.csv
