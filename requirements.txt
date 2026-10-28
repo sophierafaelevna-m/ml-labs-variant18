@@ -12,3 +12,7 @@ psutil
 joblib
 numpy
 scipy
+fastapi
+uvicorn
+torch
+httpx2

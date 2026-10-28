@@ -1,0 +1,40 @@
+{
+  "timestamp_utc": "2026-10-28T15:34:14.920247+00:00",
+  "base_url": "http://127.0.0.1:8000",
+  "total_requests": 1000,
+  "completed_requests": 1000,
+  "successful_requests": 1000,
+  "failed_requests": 0,
+  "lost_requests": 0,
+  "success_rate_percent": 100.0,
+  "duration_seconds": 1.226,
+  "throughput_requests_per_second": 815.546,
+  "p95_latency_ms": 12.536,
+  "versions_observed": {
+    "v1": 603,
+    "v2": 397
+  },
+  "switching_events": [
+    {
+      "completed_requests": 100,
+      "action": "promote",
+      "response": {
+        "action": "promote",
+        "previous_version": "v1",
+        "active_version": "v2",
+        "message": "Model promoted without service restart"
+      }
+    },
+    {
+      "completed_requests": 500,
+      "action": "rollback",
+      "response": {
+        "action": "rollback",
+        "previous_version": "v2",
+        "active_version": "v1",
+        "message": "Previous model restored without restart"
+      }
+    }
+  ],
+  "errors": []
+}

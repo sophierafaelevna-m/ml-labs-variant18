@@ -1,0 +1,28 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.0, pytest-9.1.1, pluggy-1.7.0 -- /Users/sophierafaelevna/Documents/GitHub/ml-labs-variant18/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/sophierafaelevna/Documents/GitHub/ml-labs-variant18
+configfile: pyproject.toml
+plugins: cov-7.1.0, anyio-4.15.1
+collecting ... collected 18 items
+
+tests/lab6/test_contracts.py::test_health PASSED                         [  5%]
+tests/lab6/test_contracts.py::test_predict_valid PASSED                  [ 11%]
+tests/lab6/test_contracts.py::test_predict_invalid_input[payload0] PASSED [ 16%]
+tests/lab6/test_contracts.py::test_predict_invalid_input[payload1] PASSED [ 22%]
+tests/lab6/test_contracts.py::test_predict_invalid_input[payload2] PASSED [ 27%]
+tests/lab6/test_contracts.py::test_predict_invalid_input[payload3] PASSED [ 33%]
+tests/lab6/test_contracts.py::test_predict_invalid_input[payload4] PASSED [ 38%]
+tests/lab6/test_contracts.py::test_predict_invalid_input[payload5] PASSED [ 44%]
+tests/lab6/test_contracts.py::test_models PASSED                         [ 50%]
+tests/lab6/test_contracts.py::test_metrics PASSED                        [ 55%]
+tests/lab6/test_contracts.py::test_promote_and_rollback PASSED           [ 61%]
+tests/lab6/test_contracts.py::test_promote_unknown_version PASSED        [ 66%]
+tests/lab6/test_contracts.py::test_promote_active_version PASSED         [ 72%]
+tests/lab6/test_contracts.py::test_rollback_without_promotion PASSED     [ 77%]
+tests/lab6/test_contracts.py::test_promote_invalid_request PASSED        [ 83%]
+tests/lab6/test_contracts.py::test_reject_wrong_model_hash PASSED        [ 88%]
+tests/lab6/test_contracts.py::test_100_requests_to_each_endpoint PASSED  [ 94%]
+tests/lab6/test_contracts.py::test_http_status_metrics PASSED            [100%]
+
+============================== 18 passed in 6.17s ==============================
