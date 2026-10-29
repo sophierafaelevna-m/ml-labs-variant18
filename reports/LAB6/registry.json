@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "active_version": "v1",
+  "versions": {
+    "v1": {
+      "version": "v1",
+      "path": "reports/LAB3/dl_model.pt",
+      "sha256": "b093ddf5057e9633e3c2625673eedd9836f86800c8ab210a4131adc7aebcd2e9",
+      "status": "working",
+      "training_mode": "full",
+      "metrics_source": "reports/LAB3/dl_metrics.csv",
+      "metrics": [
+        {
+          "mode": "full",
+          "metric": "accuracy",
+          "value": "0.7945306725794531",
+          "ci_low": "0.7741869918699187",
+          "ci_high": "0.8163525498891352",
+          "mlflow_run_id": "edfdb4e51444458d9e850a7e79fbf332"
+        },
+        {
+          "mode": "full",
+          "metric": "macro_f1",
+          "value": "0.7711884246509271",
+          "ci_low": "0.7494165488240668",
+          "ci_high": "0.7934396637240868",
+          "mlflow_run_id": "edfdb4e51444458d9e850a7e79fbf332"
+        },
+        {
+          "mode": "full",
+          "metric": "macro_precision",
+          "value": "0.7722197107197688",
+          "ci_low": "0.7504735553332883",
+          "ci_high": "0.7951011651032166",
+          "mlflow_run_id": "edfdb4e51444458d9e850a7e79fbf332"
+        },
+        {
+          "mode": "full",
+          "metric": "macro_recall",
+          "value": "0.7718862340088172",
+          "ci_low": "0.7509238073402738",
+          "ci_high": "0.7942480301708181",
+          "mlflow_run_id": "edfdb4e51444458d9e850a7e79fbf332"
+        },
+        {
+          "mode": "full",
+          "metric": "rare_class_recall",
+          "value": "0.6095617529880478",
+          "ci_low": "0.5399110821947517",
+          "ci_high": "0.6666666666666666",
+          "mlflow_run_id": "edfdb4e51444458d9e850a7e79fbf332"
+        }
+      ]
+    },
+    "v2": {
+      "version": "v2",
+      "path": "reports/LAB3/dl_model_chunk.pt",
+      "sha256": "bee4a1135d7544cbb43c0d021f22856dfa721a2c30f437efca431c0b3fd3e78f",
+      "status": "canary",
+      "training_mode": "chunk",
+      "metrics_source": "reports/LAB3/dl_metrics.csv",
+      "metrics": [
+        {
+          "mode": "chunk",
+          "metric": "accuracy",
+          "value": "0.7945306725794531",
+          "ci_low": "0.7741869918699187",
+          "ci_high": "0.8163525498891352",
+          "mlflow_run_id": "b949341c13f84ef89ffb5213e0cc1de4"
+        },
+        {
+          "mode": "chunk",
+          "metric": "macro_f1",
+          "value": "0.7711884246509271",
+          "ci_low": "0.7494165488240668",
+          "ci_high": "0.7934396637240868",
+          "mlflow_run_id": "b949341c13f84ef89ffb5213e0cc1de4"
+        },
+        {
+          "mode": "chunk",
+          "metric": "macro_precision",
+          "value": "0.7722197107197688",
+          "ci_low": "0.7504735553332883",
+          "ci_high": "0.7951011651032166",
+          "mlflow_run_id": "b949341c13f84ef89ffb5213e0cc1de4"
+        },
+        {
+          "mode": "chunk",
+          "metric": "macro_recall",
+          "value": "0.7718862340088172",
+          "ci_low": "0.7509238073402738",
+          "ci_high": "0.7942480301708181",
+          "mlflow_run_id": "b949341c13f84ef89ffb5213e0cc1de4"
+        },
+        {
+          "mode": "chunk",
+          "metric": "rare_class_recall",
+          "value": "0.6095617529880478",
+          "ci_low": "0.5399110821947517",
+          "ci_high": "0.6666666666666666",
+          "mlflow_run_id": "b949341c13f84ef89ffb5213e0cc1de4"
+        }
+      ]
+    }
+  },
+  "history": [
+    {
+      "timestamp": "2026-10-27T13:23:11.575012+00:00",
+      "version": "v1",
+      "from_status": null,
+      "to_status": "working",
+      "action": "register",
+      "reason": "Initial registration of Lab 3 checkpoint"
+    },
+    {
+      "timestamp": "2026-10-27T13:23:11.575012+00:00",
+      "version": "v2",
+      "from_status": null,
+      "to_status": "canary",
+      "action": "register",
+      "reason": "Initial registration of Lab 3 checkpoint"
+    },
+    {
+      "timestamp": "2026-10-27T13:30:16.001966+00:00",
+      "action": "promote",
+      "version": "v2",
+      "previous_version": "v1",
+      "reason": "Lab 6 demonstration of seamless model promotion"
+    },
+    {
+      "timestamp": "2026-10-27T13:30:32.060096+00:00",
+      "action": "rollback",
+      "version": "v1",
+      "previous_version": "v2",
+      "reason": "Restore previous working model"
+    },
+    {
+      "timestamp": "2026-10-27T15:57:51.352569+00:00",
+      "action": "promote",
+      "version": "v2",
+      "previous_version": "v1",
+      "reason": "Concurrent load test"
+    },
+    {
+      "timestamp": "2026-10-27T15:57:51.676701+00:00",
+      "action": "rollback",
+      "version": "v1",
+      "previous_version": "v2",
+      "reason": "Restore previous working model"
+    },
+    {
+      "timestamp": "2026-10-27T16:14:30.038250+00:00",
+      "action": "promote",
+      "version": "v2",
+      "previous_version": "v1",
+      "reason": "Concurrent load test"
+    },
+    {
+      "timestamp": "2026-10-27T16:14:30.405259+00:00",
+      "action": "rollback",
+      "version": "v1",
+      "previous_version": "v2",
+      "reason": "Restore previous working model"
+    },
+    {
+      "timestamp": "2026-10-28T15:34:13.822487+00:00",
+      "action": "promote",
+      "version": "v2",
+      "previous_version": "v1",
+      "reason": "Concurrent load test"
+    },
+    {
+      "timestamp": "2026-10-28T15:34:14.329145+00:00",
+      "action": "rollback",
+      "version": "v1",
+      "previous_version": "v2",
+      "reason": "Restore previous working model"
+    }
+  ],
+  "rollback_target": null
+}
