@@ -39,3 +39,9 @@ mlflow.db
 .coverage
 htmlcov/
 /reports/LAB5/synthetic_*.csv
+
+# Generated Evidently reports
+reports/LAB7/*.html
+
+# Generated Evidently reports
+reports/LAB7/*.html
