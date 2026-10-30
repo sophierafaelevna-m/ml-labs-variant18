@@ -1,0 +1,5 @@
+scenario,model_version,first_detection_end,detection_delay_samples,false_alert_windows
+clean,v1,,,0
+length,v1,,,0
+class_shift,v1,600.0,200.0,0
+vocabulary,v1,600.0,200.0,0

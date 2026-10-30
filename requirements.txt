@@ -9,10 +9,11 @@ mlflow
 pydantic
 PyYAML
 psutil
-joblib
+joblib==1.6.0
 numpy
 scipy
 fastapi
 uvicorn
 torch
 httpx2
+evidently==0.7.23

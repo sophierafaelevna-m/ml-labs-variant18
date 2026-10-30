@@ -1,0 +1,5 @@
+scenario,drift_start,first_detection_end,detection_delay_samples,false_alert_windows
+clean,,,,0
+length,400,600,200,0
+class_shift,400,600,200,0
+vocabulary,400,500,100,0
